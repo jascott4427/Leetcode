@@ -11,6 +11,17 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        num_lights_on = 0
+
+        if n == 0:
+            num_lights_on = 0
         
+        i = n
+        while i != n:
+
+            i -= 1
+
+        return num_lights_on
+
 # @lc code=end
 
